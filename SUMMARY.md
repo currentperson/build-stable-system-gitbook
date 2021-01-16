@@ -6,4 +6,5 @@
   * [提高系统稳定性-系统兼容性](chapter1/ti-gao-xi-tong-wen-ding-6027-xi-tong-jian-rong-xing.md)
   * [提高系统稳定性-系统兼容性解决方案](chapter1/ti-gao-xi-tong-wen-ding-6027-xi-tong-jian-rong-xing-jie-jue-fang-an.md)
   * [提高系统稳定性-资源有限性](chapter1/ti-gao-xi-tong-wen-ding-6027-zi-yuan-you-xian-gai-nian.md)
+  * [提高系统稳定性-幂等性](chapter1/ti-gao-xi-tong-wen-ding-6027-mi-deng-xing.md)
 
