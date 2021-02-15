@@ -8,4 +8,5 @@
   * [提高系统稳定性-资源有限性](chapter1/ti-gao-xi-tong-wen-ding-6027-zi-yuan-you-xian-gai-nian.md)
   * [提高系统稳定性-幂等性](chapter1/ti-gao-xi-tong-wen-ding-6027-mi-deng-xing.md)
   * [提高系统稳定性-幂等性-乐观锁](chapter1/ti-gao-xi-tong-wen-ding-6027-mi-deng-6027-le-guan-suo.md)
+  * [WorkRules读书笔记](chapter1/workrulesdu-shu-bi-ji.md)
 
