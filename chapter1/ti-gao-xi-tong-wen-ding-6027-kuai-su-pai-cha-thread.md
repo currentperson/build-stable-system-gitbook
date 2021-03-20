@@ -11,35 +11,33 @@ java -jar arthas-boot.jar
 
 ## Thread 命令学习:
 
-### 选择好 attach 的进程, 进入 arthas 命令界面, 执行 help thread 展示了详细的命令.![](/assets/2021032000.png)thread --all \(展示全部线程\) \|\| thread \(展示第一页\)![](/assets/2021032001.png)
+选择好 attach 的进程, 进入 arthas 命令界面, 执行 help thread 展示了详细的命令.![](/assets/2021032000.png)thread --all \(展示全部线程\) \|\| thread \(展示第一页\)![](/assets/2021032001.png)
 
 字段解释:
 
 Internal threads : 代表 JVM 内部线程
 
-ID: 线程id, 可以使用 thread ID 查看线程执行栈      
+ID: 线程id, 可以使用 thread ID 查看线程执行栈
 
-NAME: 线程名称                                          
+NAME: 线程名称
 
-GROUP: 线程组                  
+GROUP: 线程组
 
-PRIORITY: 优先级       
+PRIORITY: 优先级
 
-STATE: 线程状态,http://mcace.me/java%E5%B9%B6%E5%8F%91/2018/08/24/java-thread-states.html          
+STATE: 线程状态,[http://mcace.me/java并发/2018/08/24/java-thread-states.html](http://mcace.me/java并发/2018/08/24/java-thread-states.html)
 
-%CPU: cpu 使用率   
+%CPU: cpu 使用率
 
 DELTA\_TIME:  为采样间隔时间内线程的增量 CPU 时间，小于 1ms 时被取整显示为 0ms。
 
-TIME: 线程运行总 CPU 时间。   
+TIME: 线程运行总 CPU 时间。
 
-INTERRUPTED: 是否被中断\(https://blog.csdn.net/CringKong/article/details/80526996\)    
+INTERRUPTED: 是否被中断\([https://blog.csdn.net/CringKong/article/details/80526996\](https://blog.csdn.net/CringKong/article/details/80526996\)\)
 
-DAEMON: 是否是守护线程\(User threads是高优先级的thread，JVM将会等待所有的User Threads运行完毕之后才会结束运行。daemon threads是低优先级的thread，它的作用是为User Thread提供服务。 因为daemon threads的低优先级，并且仅为user thread提供服务，所以当所有的user thread都结束之后，JVM会自动退出，不管是否还有daemon threads在运行中。https://zhuanlan.zhihu.com/p/130289531\) ![](/assets/2021032002.png)
+DAEMON: 是否是守护线程\(User threads是高优先级的thread，JVM将会等待所有的User Threads运行完毕之后才会结束运行。daemon threads是低优先级的thread，它的作用是为User Thread提供服务。 因为daemon threads的低优先级，并且仅为user thread提供服务，所以当所有的user thread都结束之后，JVM会自动退出，不管是否还有daemon threads在运行中。[https://zhuanlan.zhihu.com/p/130289531\](https://zhuanlan.zhihu.com/p/130289531\)\) ![](/assets/2021032002.png)
 
-
-
-### thread PID![](/assets/2021032004.png)
+thread PID![](/assets/2021032004.png)
 
 可以查看指定线程\(比如 CPU 利用率极高\)的线程堆栈, 从而定位到代码的问题.
 
