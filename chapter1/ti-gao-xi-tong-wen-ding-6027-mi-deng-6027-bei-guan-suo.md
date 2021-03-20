@@ -30,8 +30,8 @@
 ## 分布式悲观锁实现常见方案
 
 1. 数据库锁\(基于乐观锁实现悲观锁\)
-2. Redis 等缓存锁\(https://github.com/redisson/redisson\)
-3. Zookeeper 锁\(https://curator.apache.org/\)
+2. Redis 等缓存锁\([https://github.com/redisson/redisson\](https://github.com/redisson/redisson\)\)
+3. Zookeeper 锁\([https://curator.apache.org/\](https://curator.apache.org/\)\)
 4. 如果有必要的话, 还可以构建多级锁来提高性能并兼顾稳定性
 
 
