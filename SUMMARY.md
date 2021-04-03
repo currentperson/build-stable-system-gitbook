@@ -11,4 +11,5 @@
   * [WorkRules读书笔记](chapter1/workrulesdu-shu-bi-ji.md)
   * [提高系统稳定性-幂等性-悲观锁](chapter1/ti-gao-xi-tong-wen-ding-6027-mi-deng-6027-bei-guan-suo.md)
   * [提高系统稳定性-快速排查 thread](chapter1/ti-gao-xi-tong-wen-ding-6027-kuai-su-pai-cha-thread.md)
+  * [提高系统稳定性-快速排查 jvm](chapter1/ti-gao-xi-tong-wen-ding-6027-kuai-su-pai-cha-jvm.md)
 
