@@ -14,4 +14,5 @@
   * [提高系统稳定性-快速排查 jvm](chapter1/ti-gao-xi-tong-wen-ding-6027-kuai-su-pai-cha-jvm.md)
   * [提高系统稳定性-快速排查类加载信息](chapter1/ti-gao-xi-tong-wen-ding-6027-kuai-su-pai-cha-lei-jia-zai-xin-xi.md)
   * [提高系统稳定性-快速排查代码版本正确性](chapter1/ti-gao-xi-tong-wen-ding-6027-kuai-su-pai-cha-dai-ma-ban-ben-zheng-que-xing.md)
+  * [提高系统稳定性 - OGNL 表达式](chapter1/ti-gao-xi-tong-wen-ding-xing-ognl-biao-da-shi.md)
 
