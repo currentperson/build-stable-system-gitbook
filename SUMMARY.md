@@ -16,4 +16,5 @@
   * [提高系统稳定性-快速排查代码版本正确性](chapter1/ti-gao-xi-tong-wen-ding-6027-kuai-su-pai-cha-dai-ma-ban-ben-zheng-que-xing.md)
   * [提高系统稳定性 - OGNL 表达式](chapter1/ti-gao-xi-tong-wen-ding-xing-ognl-biao-da-shi.md)
   * [提高系统稳定性-SM查询方法](chapter1/ti-gao-xi-tong-wen-ding-6027-sm-cha-xun-fang-fa.md)
+  * [提高系统稳定性-查看方法耗时Trace](chapter1/ti-gao-xi-tong-wen-ding-6027-cha-kan-fang-fa-hao-shi-trace.md)
 
